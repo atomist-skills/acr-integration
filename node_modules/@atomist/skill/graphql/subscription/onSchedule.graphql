@@ -1,0 +1,6 @@
+subscription onSchedule {
+  OnSchedule {
+    configurationName
+    parameterName
+  }
+}
