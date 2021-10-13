@@ -1,0 +1,17 @@
+fragment personFields on Person {
+  forename
+  surname
+  name
+  emails {
+    address
+  }
+  gitHubId {
+    login
+  }
+  chatId {
+    screenName
+    chatTeam {
+      id
+    }
+  }
+}
